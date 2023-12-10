@@ -1,0 +1,35 @@
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+#status_bar {
+	border: 1px solid black;
+	width: 95%;
+}
+
+#circles_canvas {
+	border: 1px solid black;
+}
+
+#point_coords {
+	position: absolute;
+	right: 40px;
+	top: 40px;
+	width: 300px; 
+	border: 1px solid red;
+	z-order: 100;
+}
+
+#point_coords td.coords_column1 {
+	width: 30%
+}
+
+#point_coords td.coords_column2 {
+	padding-right: 10px;
+	width: 70%
+}
+
+#square_1, #square_2, #square_intersect {
+	width: 100%;
+}

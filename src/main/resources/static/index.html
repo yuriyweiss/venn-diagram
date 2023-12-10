@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Fractal map</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <link rel="stylesheet" href="css/main_page.css" type="text/css"	media="screen" />
+
+    <script src="webjars/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="js/main_page.js"></script>
+</head>
+<body>
+    <table id="point_coords" style="background-color: white">
+        <tr>
+            <td class="coords_column1">1-st circle square:</td>
+            <td class="coords_column2"><input type="text" id="square_1"/></td>
+        </tr>
+        <tr>
+            <td class="coords_column1">2-nd circle square:</td>
+            <td class="coords_column2"><input type="text" id="square_2"/></td>
+        </tr>
+        <tr>
+            <td class="coords_column1">Intersection square:</td>
+            <td class="coords_column2"><input type="text" id="square_intersect"/></td>
+        </tr>
+        <tr>
+            <td class="coords_column1"><button id="calculate" onclick="runCalculation()">Calculate</button></td>
+        </tr>
+    </table>
+    <canvas id="circles_canvas" width="900" height="700"></canvas>
+    <div id="status_bar"></div>
+</body>
+</html>
